@@ -45,8 +45,8 @@ if has("cscope")
         cs add $CSCOPE_DB
     endif
 
-    " show msg when any other cscope db added
-    set cscopeverbose
+    " DO NOT show msg when any other cscope db added
+    set nocscopeverbose
 
 
     """"""""""""" My cscope/vim key mappings
